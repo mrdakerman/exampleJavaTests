@@ -6,7 +6,7 @@ import io.restassured.specification.RequestSpecification;
 import org.junit.jupiter.api.BeforeAll;
 
 public class TestConfig {
-    private static final String BASE_URL = "https://simplerestappfortest.onrender.com"; // URL нашего приложения на Render
+    private static final String BASE_URL = "https://simplerestappfortest.onrender.com";
 
     @BeforeAll
     public static void setup() {
